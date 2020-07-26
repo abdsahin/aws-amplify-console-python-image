@@ -1,3 +1,3 @@
-FROM nikolaik/python-nodejs:python3.8-nodejs12-alpine
+FROM nikolaik/python-nodejs:python3.8-nodejs12
 
-RUN apk add curl git
+RUN apt-get install curl git
